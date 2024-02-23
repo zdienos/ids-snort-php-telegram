@@ -1,8 +1,7 @@
 <?php
 
-// $telegramchatid = "863397096"; //gugus
-$telegramchatid = "698990214"; //dino
-$telegrambot = "6705155258:AAE3ZW2wH6o13wMYk99-lrJbBaePKDJE-A4";
+$telegramchatid = "xxx";
+$telegrambot = "yyy:zzz";
 
 
 function telegram($msg)
