@@ -44,11 +44,11 @@ function baseLong2IP($long_IP)
     return $tmp_IP;
 }
 
-$signature = $argv[1];
-$timestamp = $argv[2];
-$ip_src = baseLong2IP($argv[3]);
-$ip_dst = baseLong2IP($argv[4]);
-$ip_proto = get_protocol($argv[5]);
+$signature = '';//$argv[1];
+$timestamp = '';//$argv[2];
+$ip_src = '';//baseLong2IP($argv[3]);
+$ip_dst = '';//baseLong2IP($argv[4]);
+$ip_proto = '';//get_protocol($argv[5]);
 
 $caption = "❗️[$signature] Serangan dari $ip_src pada $ip_dst \n menggunakan protocol $ip_proto \n pada 🕔$timestamp";
 telegram($caption);

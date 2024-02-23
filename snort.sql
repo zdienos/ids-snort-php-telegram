@@ -8,7 +8,7 @@ CREATE PROCEDURE gugus_message
  ip_dst double,
  ip_proto double)
 BEGIN
- SET @result = sys_exec(CONCAT('php \home\gugus\snort-test.php "', signatures, '" "', timestmp, '" "', ip_src, '" "', ip_dst, '" "', ip_proto, '"'));
+ SET @result = sys_exec(CONCAT('php /home/zed/Development/gugus-snort-php/snort-test.php"', signatures, '" "', timestmp, '" "', ip_src, '" "', ip_dst, '" "', ip_proto, '"'));
 END$$
 
 DROP TRIGGER IF EXISTS gugus_message_trigger$$
