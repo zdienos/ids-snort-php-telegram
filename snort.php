@@ -2,8 +2,7 @@
 
 // $telegramchatid = "xsssxx"; 
 // $telegrambot = "yyy:xsssxx";
-$telegramchatid = "698990214"; //dino
-$telegrambot = "6705155258:AAE3ZW2wH6o13wMYk99-lrJbBaePKDJE-A4";
+
 
 
 function telegram($msg)
